@@ -16,6 +16,13 @@ This is an [Expo](https://expo.dev) project created with [`create-expo-app`](htt
    npx expo start
    ```
 
+## Project scaffolding steps
+
+- Scaffolding: `npx create-expo-app@latest prodev-mobile-app-0x00 -t expo-router`
+- Change directory: `cd prodev-mobile-app-0x00`
+- Install dependencies: `npm install`
+- Start development server: `npx expo start`
+
 In the output, you'll find options to open the app in a
 
 - [development build](https://docs.expo.dev/develop/development-builds/introduction/)
@@ -34,6 +41,13 @@ npm run reset-project
 ```
 
 This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+
+## reset-project observations
+
+- Ran `npm run reset-project` and chose the default `Y` option when prompted.
+- An `app-example` directory was created at the project root.
+- The starter code is available under `app-example/app/(tabs)/index.tsx` and related files.
+- A `constants` module backup is available at `app-example/constants/Colors.ts`.
 
 ## Learn more
 
